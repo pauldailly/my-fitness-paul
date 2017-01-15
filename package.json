@@ -1,0 +1,20 @@
+{
+  "name": "my-fitness-paul-alexa",
+  "version": "1.0.0",
+  "description": "Alexa voice skill for tracking macros",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "env NODE_PATH=./ TESCO_API_KEY='Tesco1234' TESCO_BASE_URI='https://dev.tescolabs.com' ./node_modules/.bin/mocha --reporter spec --recursive"
+  },
+  "author": "Paul Dailly",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "gtin": "05060283760843",
+      "tpnb": "080053777",
+      "tpnc": "290368812",
+      "description": "Propercorn Smooth Peanut And Almond 90G",
+      "brand": "PROPERCORN",
+      "qtyContents": {
+        "quantity": 90.0,
+        "quantityUom": "g",
+        "avgMeasure": "Average Measure (e)",
+        "netContents": "90g ℮"
+      },
+      "ingredients": [
+        "Popped Corn",
+        "Rapeseed Oil",
+        "Sugar",
+        "<strong>Peanut</strong> Flour",
+        "Salt",
+        "Ground <strong>Almond</strong>"
+      ],
+      "gda": {
+        "gdaRefs": [
+          {
+            "gdaDescription": "Per Portion",
+            "headers": [
+              "Per Serving"
+            ],
+            "values": [
+              {
+                "name": "Energy",
+                "values": [
+                  "502kJ",
+                  "120kcal"
+                ]
+              }
+            ]
+          },
+          {
+            "gdaDescription": "Per 100g/ml",
+            "headers": [
+              "Per 100g"
+            ],
+            "values": [
+              {
+                "name": "Energy",
+                "values": [
+                  "2008kJ",
+                  "481kcal"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "calcNutrition": {
+        "per100Header": "per 100g",
+        "perServingHeader": "Per 25g",
+        "calcNutrients": [
+          {
+            "name": "Energy (kJ)",
+            "valuePer100": "2008",
+            "valuePerServing": "502"
+          },
+          {
+            "name": "Energy (kcal)",
+            "valuePer100": "481",
+            "valuePerServing": "120"
+          },
+          {
+            "name": "Fat (g)",
+            "valuePer100": "23.5",
+            "valuePerServing": "5.9"
+          },
+          {
+            "name": " of which saturates (g)",
+            "valuePer100": "2",
+            "valuePerServing": "0.5"
+          },
+          {
+            "name": "Carbohydrate (g)",
+            "valuePer100": "49.4",
+            "valuePerServing": "12.4"
+          },
+          {
+            "name": " of which sugars (g)",
+            "valuePer100": "11.6",
+            "valuePerServing": "2.9"
+          },
+          {
+            "name": "Fibre (g)",
+            "valuePer100": "12.2",
+            "valuePerServing": "3.1"
+          },
+          {
+            "name": "Protein (g)",
+            "valuePer100": "11.9",
+            "valuePerServing": "3"
+          },
+          {
+            "name": "Salt (g)",
+            "valuePer100": "0.89",
+            "valuePerServing": "0.22"
+          }
+        ]
+      },
+      "allergenAdvice": {
+        "allergens": [
+          {
+            "allergenName": "Free From",
+            "allergenValues": [
+              "Gluten",
+              "Wheat"
+            ]
+          },
+          {
+            "allergenName": "Contains",
+            "allergenValues": [
+              "Almonds",
+              "Peanuts"
+            ]
+          }
+        ],
+        "allergenText": "Packed in an environment that packs Nuts"
+      },
+      "safety": {
+        "safetyWarnings": [
+          "Warning: May contain the occasional un-popped kernel."
+        ]
+      },
+      "productAttributes": [
+        {
+          "category": [
+            {
+              "product_origin_info": {
+                "place_of_provenace": {
+                  "name": "Place of Provenance",
+                  "value": "Made in Britain"
+                }
+              },
+              "storage_info": {
+                "storage_type": {
+                  "name": "Storage Type",
+                  "value": "Ambient"
+                }
+              },
+              "nut_statements": {
+                "nut_statement_factory": {
+                  "name": "Nut Statement - Factory",
+                  "value": "Packed in an environment that packs nuts"
+                }
+              },
+              "additives": [
+                {
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Genetically Modified Ingredients"
+                  },
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  }
+                }
+              ],
+              "third_party_logos": [
+                {
+                  "third_party_logo": {
+                    "name": "Third Party Logo",
+                    "value": "Union Flag"
+                  }
+                }
+              ],
+              "lifestyle": [
+                {
+                  "lifestyle": {
+                    "name": "Lifestyle",
+                    "value": "Suitable for Vegans"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

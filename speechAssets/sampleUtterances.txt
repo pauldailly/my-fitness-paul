@@ -1,0 +1,16 @@
+GetMacros the macros in {Food}
+GetMacros macros in {Food}
+GetMacros the macros for {Food}
+GetMacros macros for {Food}
+GetMacros what the macros are in {Food}
+GetMacros what the macros are for {Food}
+GetMacros what are the macros in {Food}
+GetMacros what are the macros for {Food}
+GetMacros what's the macros for {Food}
+GetMacros what's the macros in {Food}
+GetMacros give me the macros in {Food}
+GetMacros give me the macros for {Food}
+GetMacros get me the macros for {Food}
+GetMacros get me the macros in {Food}
+GetMacros tell me the macros for {Food}
+GetMacros tell me the macros in {Food}

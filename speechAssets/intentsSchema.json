@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "GetMacros",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "AMAZON.Food"
+        }
+      ]
+    }
+  ]
+}
