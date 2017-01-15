@@ -1,6 +1,7 @@
 "use strict";
 const nutritionalInfo = require('src/nutritionalInfo');
 const responseBuilder = require('src/alexa/api/alexaResponseBuilder');
+const metrics = require('src/metrics');
 
 const extractFoodItemFromIntent = (intent) => {
   return intent.slots.Food.value;
@@ -17,6 +18,15 @@ const buildSpokenTextFromMacroInfo = (foodItem, macroInfo) => {
   return `${description}. ${servingSize} ${fat}, ${carbs} and ${protein}. ${calories}.`;
 };
 
+const handleError = (foodItem, callback) => {
+  const errorText = `Sorry, I cannot find the macros for ${foodItem}`;
+  let errorResponse = responseBuilder.buildResponse(errorText);
+  metrics.publishMetric('GetMacrosMissingFoodItem', foodItem)
+    .then(() => {
+      return callback(null, errorResponse);
+    });
+};
+
 const handleIntent = (intent, context, callback) => {
   const foodItem = extractFoodItemFromIntent(intent);
 
@@ -25,8 +35,8 @@ const handleIntent = (intent, context, callback) => {
       const spokenText = buildSpokenTextFromMacroInfo(foodItem, macroInfo);
       return callback(null, responseBuilder.buildResponse(spokenText));
     })
-    .catch((error) => {
-      return callback(new Error(error));
+    .catch(() => {
+        return handleError(foodItem, callback);
     });
 };
 

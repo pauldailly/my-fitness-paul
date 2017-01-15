@@ -19,11 +19,10 @@ exports.searchForProduct = (productQuery) => {
     headers: HEADERS,
     json: true
   };
-  console.log(`Searching for Tesco product ${productQuery} with options ${JSON.stringify(options)}`);
+  console.log(`Searching for Tesco product ${productQuery}`);
 
   return request(options)
     .then((response) => {
-      console.log(`Tesco product query response ${JSON.stringify(response)}`);
       return Promise.resolve(response);
     });
 };
